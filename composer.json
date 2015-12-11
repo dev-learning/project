@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {"": "src"}
+    },
+    "authors": [
+        {
+            "name": "bahtiyar",
+            "email": "bahtiyar.kavakli@persgroep.nl"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "2.6.4",
+        "smarty/smarty": "~3.1"
+    }
+}
