@@ -41,6 +41,11 @@ class Field
     private $dataType;
 
     /**
+     * @var boolean $required
+     */
+    private $required;
+
+    /**
      * @param string $name
      * set default values
      */

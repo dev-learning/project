@@ -334,7 +334,7 @@ class Module
 
             $rows = $database->select($dbColumns, $this->getName(), [], 'ID', 'DESC');
 
-            if (count($joinColumns['select']) > 0)
+            if (isset($joinColumns['select']) && count($joinColumns['select']) > 0)
             {
                 foreach ($joinColumns['select'] as $joinColumn)
                 {
